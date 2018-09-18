@@ -1,0 +1,56 @@
+body {
+	background-color: #999999; 
+}
+
+#user1 > div, #form > div {
+	clear: both;
+	text-align: right;
+	line-height:25px;
+}
+
+#user1 > div > label, #form > div > label {
+	float: left;
+	padding-right:30px;
+	padding-left: 30px;
+}
+
+#user1 , #form {
+	float: left;
+}
+
+body > form:nth-child(6) > button, 
+body > a,
+body > form:nth-child(8) > button {
+	margin-left: 30px;
+	margin-bottom: 15px;
+}
+
+body > button {
+	text-align: center;
+	margin-left: 12%;
+	margin-top: 10px;
+}
+
+body > h1, body > h3 {
+	text-align: center;
+	margin: 20px 0;
+}
+
+
+#form_Reset {
+	margin-left: 100px;
+}
+
+body > button:nth-child(7) {
+
+	margin-left: 30px;
+}
+
+body > div.form-wrapper > form > div > label {
+	display: none;
+}
+
+.password {
+	margin-left: 25px;
+	margin-top: 15px;
+}
